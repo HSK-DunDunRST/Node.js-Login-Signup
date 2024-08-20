@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project</title>
+  <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <style>
+    .navbar-brand {
+      font-size: 25px;
+      font-weight: 700;
+    }
+
+    /* 중첩된 드롭다운 메뉴 스타일링 */
+    .dropdown-submenu {
+      position: relative;
+    }
+
+    .dropdown-submenu .dropdown-menu {
+      top: 0;
+      left: 100%;
+      margin-top: -6px;
+      display: none; /* 기본적으로 숨김 */
+    }
+
+    .dropdown-submenu:hover .dropdown-menu {
+      display: block; /* 부모 메뉴를 hover할 때 하위 메뉴를 표시 */
+    }
+
+    .dropdown-menu .dropdown-submenu {
+      position: relative;
+    }
+
+    .dropdown-menu .dropdown-submenu .dropdown-menu {
+      top: 0;
+      left: 100%;
+      margin-top: -6px;
+    }
+
+    #login, #search {
+      margin: 0 10px;
+    }
+
+    #logo {
+      margin: 0 30px 0 10px;
+    }
+
+    #nav-items, #navbarDropdown1, #navbarDropdown2, #navbarDropdown3, #navbarDropdown4 {
+      margin: 0  0 0 30px;
+    }
+  </style>
+</head>
+<body>
+  
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      
+      <a class="navbar-brand" id="logo" href="#">Project</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" id="nav-items" href="#">Introduce Department</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" id="nav-items" href="#">Curriculum</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Freshman
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+              <li class="dropdown-submenu">
+                <a class="dropdown-item dropdown-toggle" href="#">First Semester</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Operating System</a></li>
+                  <li><a class="dropdown-item" href="#">Discrete Mathematics</a></li>
+                  <li><a class="dropdown-item" href="#">Network Protocol</a></li>
+                  <li><a class="dropdown-item" href="#">Basic Linux System</a></li>
+                  <li><a class="dropdown-item" href="#">Introduction to Information Security</a></li>
+                  <li><a class="dropdown-item" href="#">Creative Algorithm</a></li>
+                </ul>
+              </li>
+              <li class="dropdown-submenu">
+                <a class="dropdown-item dropdown-toggle" href="#">Second Semester</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Basicof Web Programming</a></li>
+                  <li><a class="dropdown-item" href="#">Database</a></li>
+                  <li><a class="dropdown-item" href="#">Practical Skillson Network</a></li>
+                  <li><a class="dropdown-item" href="#">Linux System Management</a></li>
+                  <li><a class="dropdown-item" href="#">AI Introduction and Practice</a></li>
+                  <li><a class="dropdown-item" href="#">Python</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Sophomore
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+              <li class="dropdown-submenu">
+                <a class="dropdown-item dropdown-toggle" href="#">First Semester</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">C Programming</a></li>
+                  <li><a class="dropdown-item" href="#">Hacking and Cracking</a></li>
+                  <li><a class="dropdown-item" href="#">Firewall System</a></li>
+                  <li><a class="dropdown-item" href="#">Operating System Security</a></li>
+                  <li><a class="dropdown-item" href="#">Database System Security</a></li>
+                  <li><a class="dropdown-item" href="#">Webprogramming Application</a></li>
+                  <li><a class="dropdown-item" href="#">AI Programing(1)</a></li>
+                </ul>
+              </li>
+              <li class="dropdown-submenu">
+                <a class="dropdown-item dropdown-toggle" href="#">Second Semester</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Cryptography</a></li>
+                  <li><a class="dropdown-item" href="#">Data structure</a></li>
+                  <li><a class="dropdown-item" href="#">Security Programming</a></li>
+                  <li><a class="dropdown-item" href="#">Intrusion Detection System</a></li>
+                  <li><a class="dropdown-item" href="#">Security Scripts</a></li>
+                  <li><a class="dropdown-item" href="#">Practice of Mock Hacking</a></li>
+                  <li><a class="dropdown-item" href="#">AI Programing(2)</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Junior
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown3">
+              <li><a class="dropdown-item" href="#">Coming Soon...</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Advanced Major
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown4">
+              <li><a class="dropdown-item" href="#">Coming Soon...</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" id="nav-items" href="#">Developer</a>
+          </li>
+        </ul>
+
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit" id="search">Search</button>
+        </form>
+
+        <a class="btn btn-primary" id="login" href="/login">Login</a>
+        <a class="btn" id="signup" href="/signup">Sign Up</a>
+
+      </div>
+    </div>
+  </nav>
