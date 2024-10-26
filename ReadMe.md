@@ -1,14 +1,13 @@
 # Node.js + EJS Login & Signup
 
-![Github Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)
-
 ## Description
 
 This project is a Node.js application that implements user authentication using EJS as the templating engine. The application features a login and signup system that allows users to register and log in. Currently, the project is being modified to resolve an issue where users do not return to the main page after logging in.
 
 ## Repository Origin
 
-This project is based on the work of [Si-Hyun-Kim](https://github.com/Si-Hyun-Kim).
+This project is based on the work of [Si-Hyun-Kim](https://github.com/Si-Hyun-Kim).   [![Github Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Si-Hyun-Kim)
+
 
 ## Features
 
