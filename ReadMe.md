@@ -4,4 +4,4 @@
 
 [![Github Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Si-Hyun-Kim)
 
-**로그인시 메인페이지로 돌아가지 않아 수정중인 프로젝트입니다.**
+**It is a project that is being modified because it does not return to the main page when logging in.**
