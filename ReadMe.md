@@ -6,7 +6,8 @@ This project is a Node.js application that implements user authentication using 
 
 ## Repository Origin
 
-This project is based on the work of [Si-Hyun-Kim](https://github.com/Si-Hyun-Kim).   [![Github Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Si-Hyun-Kim)
+This project is based on the work of [Si-Hyun-Kim](https://github.com/Si-Hyun-Kim).
+[![Github Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Si-Hyun-Kim)
 
 
 ## Features
