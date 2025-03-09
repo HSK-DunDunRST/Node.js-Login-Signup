@@ -1,75 +1,43 @@
-# Node.js + EJS Login & Signup
+# Node.js + EJS 로그인 및 회원가입
 
-## Description
+## 설명  
 
-This project is a Node.js application that implements user authentication using EJS as the templating engine. The application features a login and signup system that allows users to register and log in. Currently, the project is being modified to resolve an issue where users do not return to the main page after logging in.
+이 프로젝트는 **Node.js**를 사용하여 구현된 사용자 인증 시스템이며, **EJS**를 템플릿 엔진으로 활용합니다.  
+사용자는 회원가입 및 로그인을 할 수 있으며, 현재 로그인 후 메인 페이지로 이동하지 않는 문제를 수정 중입니다.  
 
-## Repository Origin
+## 원본 저장소  
 
-This project is based on the work of [Si-Hyun-Kim](https://github.com/Si-Hyun-Kim).   
+이 프로젝트는 [Si-Hyun-Kim](https://github.com/Si-Hyun-Kim) 님의 작업을 기반으로 개발되었습니다.  
 [![Github Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Si-Hyun-Kim)
-
-
-## Features
-
-- User registration
-- User login
-- User authentication
-- Error handling for login and signup
-- Responsive design using EJS
-
-## Installation
-
-To set up this project locally, follow these steps:
-
-1. **Clone the repository:**
-
-   ```bash
-   git clone https://github.com/HSK-DunDunRST/Node.js-Login-Signup.git
-   ```
-
-2. **Navigate to the project directory:**
-
-   ```bash
-   cd Node.js-Login-Signup
-   ```
-
-3. **Install the required packages:**
-
-   ```bash
-   npm install
-   ```
-
-4. **Run the application:**
-
-   ```bash
-   npm start
-   ```
-
-5. **Open your browser and navigate to:**
-
-   ```
-   http://localhost:3000
-   ```
-
-## Usage
-
-1. **Signup:** Navigate to the signup page and fill in the required fields to create a new account.
-2. **Login:** Use the credentials you registered to log in.
-3. **Return to the main page:** Currently, this feature is being fixed. If you encounter any issues, please check the project’s GitHub issues.
-
-## Contributing
-
-Contributions are welcome! If you find any bugs or have suggestions for improvements, feel free to open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the MIT License.
-
-## Acknowledgments
-
-- [Si-Hyun-Kim](https://github.com/Si-Hyun-Kim) for the original project concept.
 
 ---
 
-Feel free to customize any sections to better fit your project's specifics!
+## 주요 기능  
+
+✅ 사용자 **회원가입**  
+✅ 사용자 **로그인**  
+✅ **인증 시스템** 구현  
+✅ 로그인 및 회원가입 **에러 처리**  
+✅ **EJS**를 사용한 반응형 디자인  
+
+---
+
+## 사용 방법  
+
+1️⃣ **회원가입**  
+   - 회원가입 페이지에서 정보를 입력하고 계정을 생성하세요.  
+
+2️⃣ **로그인**  
+   - 회원가입한 계정으로 로그인하세요.  
+
+3️⃣ **메인 페이지 이동**  
+   - 현재 로그인 후 메인 페이지로 이동하는 기능이 정상적으로 작동하지 않는 문제가 있어 수정 중입니다.  
+   - 오류 발생 시 GitHub Issues를 확인하세요.  
+
+---
+
+## 감사의 말  
+
+- 원본 프로젝트를 제공해 주신 [Si-Hyun-Kim](https://github.com/Si-Hyun-Kim) 님께 감사드립니다.  
+
+---
